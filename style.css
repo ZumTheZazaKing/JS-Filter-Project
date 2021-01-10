@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+}
+
+img{
+    width: 250px;
+    height: 120px;
+    margin: 20px;
+}
+
+#container{
+    text-align: center;
+}
+
+#title{
+    font-size: 48px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    margin-top: 50px;
+}
+
+#desc{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn{
+    color: deeppink;
+    font-size: 24px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid deeppink;
+    cursor: pointer;
+    font-family: 'Quicksand';
+    transition: .2s ease-in;
+}
+
+.btn:hover{
+
+    color: white;
+    background-color: deeppink;
+
+}
+
+.hide{
+    display: none;
+}
